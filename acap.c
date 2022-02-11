@@ -5,6 +5,10 @@
 
 int main(int argc, char *argv[]){
 	if(argc == 1) { // detect lack of commands
+		printf("\x1b[31m");
+		printf("Missing Value Operand!\n");
+		printf("\033[0m");
+		printf("Usage: arcap <value>\n");
 		return 1;
 	}
 	if(strcmp(argv[1],"-h") == 0) { // help command
