@@ -3,6 +3,6 @@
 
 A small capacitor calculator written in C for personal use.
 
-``arcap -h // help command``
+``arcap -h`` for help
 
-``arcap <value> //
+``arcap <value>`` to calculate a capacitor value
