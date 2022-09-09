@@ -25,7 +25,7 @@ int main(int argc, char *argv[]){
 	value = (argv[1][0] - '0')*10;
 	value = value + (argv[1][1] - '0');
 	multiplier = pow(10, argv[1][2]-'0');
-	result = value * multiplier; //idk why but new value
+	result = value * multiplier; 
 	printf("%.0f pF\n", result); //displaying the VALUES!!!
 	printf("%.2f nF\n", result/1000); 
 	printf("%4f uF\n", result/1000000);
