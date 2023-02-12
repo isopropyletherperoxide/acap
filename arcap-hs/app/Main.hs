@@ -1,8 +1,8 @@
 module Main where
 
-import CapLib
-import System.Environment
-import Text.Printf
+import CapLib ( digitToFloat, calcCap )
+import System.Environment ( getArgs )
+import Text.Printf ( printf )
 
 main :: IO ()
 main = do
